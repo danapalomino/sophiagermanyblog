@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <script src="web.js"></script>
+	<head>
+		<title>Sophia Goes to Germany! </title>
+    <center><h1>Sophia Palomino</h1></center>
+    <link rel="stylesheet" href="sophia.css">
+
+	</head>
+	<body>
+  <div class="tab">
+
+    <button class="tablink" onclick="openPage('Home')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('Blogs')">Blogs</button>
+    <button class="tablink" onclick="openPage('Contact')">Contact</button>
+    <button class="tablink" onclick="openPage('About Me')">About Me</button>
+
+
+     <div id="Home" class="tabcontent">
+       <h3>Home</h3>
+       <p>Hi! Welcome to my page. Next school year I will be studying abroad in Germany. I wanted to use this website to write blogs, post videos, etc about my trip and experience. Enjoy! </p>
+     </div>
+
+     <div id="Blogs" class="tabcontent">
+       <h3>Blogs</h3>
+       <p>Here you will find past blogs I've posted. </p>
+
+     </div>
+
+     <div id="Contact" class="tabcontent">
+       <h3>Contact</h3>
+       <p align="left">I know when I was going through the application process I had <em>millions</em> of questions.</p>
+       <p align="left"> Drop them down below and I'll get back to you as soon as I can!</p>
+       <p align="left">You can also contact me on my social medias:</p>
+       <p align="left"><a href="https://www.instagram.com/sophiapalomino"> Click here to visit my Instagram!</a></p>
+       <p><a href="https://www.twitter.com/sophiapalomino"> Click here to visit my Twitter!</a></p>
+
+       <div class="contact-title">
+         <h3>Contact Form<h1>
+         <h4> Send me a message below!<h2>
+       </div>
+       <div class="contact-form">
+         <form id="contact-form" method="post" action="">
+         <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+         <br>
+         <input name="email" type="text" class="form-control" placeholder="Your Email" required>
+         <br>
+            <textarea name="message" class="form-control" placeholder="Message" row="4" required>
+            </textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+
+       </div>
+
+
+     </div>
+
+     <div id="About Me" class="tabcontent">
+       <h3>About</h3>
+       <p>Hi, my name is Sophia Palomino. I'm from Atlanta, Georgia and I'm a rising senior. </p>
+     </div>
+
+  </div>
+
+
+
+
+
+
+
+		<div></div>
+	</body>
+</html>
